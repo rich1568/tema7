@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <input type="number" id="height">
+    <input type="number" id="width">
+
+    <button id="knap">Fuck You</button>
+
+    <script>
+        let minKnap = document.querySelector("#knap");
+
+        minKnap.addEventListener("click", funktionTal);
+
+        function funktionTal() {
+            console.log("Længde: " + document.querySelector("#height").value + " Bredde: " + document.querySelector("#width").value + " Areal: " + document.querySelector("#height").value * document.querySelector("#width").value);
+        }
+    </script>
+</body></html>
